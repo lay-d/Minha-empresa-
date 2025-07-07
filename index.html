@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>GlowMake - Maquiagem que brilha com você</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <h1> GlowMake</h1>
+    <nav>
+      <a href="#home">Início</a>
+      <a href="#produtos">Produtos</a>
+      <a href="#sobre">Sobre Nós</a>
+      <a href="#contato">Contato</a>
+    </nav>
+  </header>
+
+  <section id="home">
+    <h2>Bem-vindo à GlowMake</h2>
+    <p>A GlowMake é especialista em realçar sua beleza com produtos veganos, acessíveis e com performance profissional. 💄</p>
+  </section>
+
+  <section id="produtos">
+    <h2>Nossos Produtos</h2>
+    <div class="galeria">
+      <!-- Repita o bloco abaixo para 15 produtos -->
+      <div class="produto">
+        <img src="https://img.lojasrenner.com.br/item/553137470/original/11.jpg" alt="Base Líquida">
+        <h3>Base Líquida Niina Secrets</h3>
+        <p>R$49,99</p>
+        <p>Cobertura natural para o dia a dia.</p>
+        <button onclick="comprarProduto('Base Líquida')">Comprar</button>
+      </div>
+
+      <div class="produto">
+        <img src="https://www.vizzela.com.br/cdn/shop/files/791-2.jpg?v=1748549972&width=1200" alt="Corretivo">
+        <h3>Corretivo Vizzela</h3>
+        <p>aR$29,99</p>
+        <p>Alta cobertura e longa duração.</p>
+        <button onclick="comprarProduto('Corretivo')">Comprar</button>
+      </div>
+
+      <div class="produto">
+        <img src="https://cdn.iset.io/assets/73522/produtos/181/paleta-blush-po-creme-selene-by-karen-bachini-03.jpg" alt="Blush">
+        <h3>Blush Karen Bachini</h3>
+        <p>R$159,99</p>
+        <p>Toque de cor para um ar saudável.</p>
+        <button onclick="comprarProduto('Blush')">Comprar</button>
+      </div>
+
+      <div class="produto">
+        <img src="https://http2.mlstatic.com/D_NQ_NP_782887-MLU77967972384_082024-O.webp" alt="Iluminador">
+        <h3>Iluminador Rare Beauty</h3>
+        <p>R$354,99</p>
+        <p>Brilho natural e elegante.</p>
+        <button onclick="comprarProduto('Iluminador')">Comprar</button>
+      </div>
+
+      <div class="produto">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOvBrlXJG1WSW4YsetBg_sR1hGecBgknjj1g&s" alt="Bronzer">
+        <h3>Bronzer Too Faced</h3>
+        <p>R$199,99</p>
+        <p>Contorno com efeito bronzeado.</p>
+        <button onclick="comprarProduto('Bronzer')">Comprar</button>
+      </div>
+
+      <div class="produto">
+        <img src="https://cdn.iset.io/assets/73522/produtos/188/batom-liquido-fenix-matte-aveludado-by-karen-bachini-02.jpg" alt="Batom Vermelho">
+        <h3>Batom Vermelho Karen Bachini</h3>
+        <p>R$44,90</p>
+        <p>Clássico e sofisticado.</p>
+        <button onclick="comprarProduto('Batom Vermelho')">Comprar</button>
+      </div>
+
+      <div class="produto">
+        <img src="https://loja10makeup.com.br/wp-content/uploads/2024/03/batom-1.png" alt="Batom Nude">
+        <h3>Batom Nude Uni MakeUp</h3>
+        <p>R$29,90</p>
+        <p>Elegância natural para o dia a dia.</p>
+        <button onclick="comprarProduto('Batom Nude')">Comprar</button>
+      </div>
+
+      <div class="produto">
+        <img src="https://img.lojasrenner.com.br/item/929760711/zoom/3.jpg" alt="Gloss Labial">
+        <h3>Love Kit Fran By Franciny Ehlke</h3>
+        <p>R$149,90</p>
+        <p>Brilho intenso com efeito molhado.</p>
+        <button onclick="comprarProduto('Gloss Labial')">Comprar</button>
+      </div>
+
+      <div class="produto">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmhapVFmNZKDqtrwLenAn_D7ywAcQueO3xKg&s" alt="Delineador">
+        <h3>Delineador Melu</h3>
+        <p>R$15,90</p>
+        <p>Traço preciso e resistente à água.</p>
+        <button onclick="comprarProduto('Delineador')">Comprar</button>
+      </div>
+
+      <div class="produto">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgGKNkeqxuERlVgc29Y-i4rwY9MQ99rE6XHg&s" alt="Rímel">
+        <h3>Rímel Maybelline</h3>
+        <p>R$99,99</p>
+        <p>Cílios mais longos e volumosos.</p>
+        <button onclick="comprarProduto('Rímel')">Comprar</button>
+      </div>
+
+      <div class="produto">
+        <img src="https://simpresentes.com/wp-content/uploads/2024/02/HB-new-nude-1.jpeg" alt="Paleta de Sombras">
+        <h3>Paleta de Sombras Huda Beauty</h3>
+        <p>R$524,90</p>
+        <p>Cores vibrantes e versáteis.</p>
+        <button onclick="comprarProduto('Paleta de Sombras')">Comprar</button>
+      </div>
+
+      <div class="produto">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYd7lzful3QxFB7UMnbZp17zE6WJLjpSDuHg&s" alt="Lápis de Olho">
+        <h3>Lápis de Olho O'boticário</h3>
+        <p>R$29,90</p>
+        <p>Aplicação suave e precisa.</p>
+        <button onclick="comprarProduto('Lápis de Olho')">Comprar</button>
+      </div>
+
+      <div class="produto">
+        <img src="https://m.media-amazon.com/images/I/619y+NpzrTL._UF1000,1000_QL80_.jpg" alt="Primer">
+        <h3>Primer E.L.F</h3>
+        <p>R$200,90</p>
+        <p>Suaviza os poros e fixa a maquiagem.</p>
+        <button onclick="comprarProduto('Primer')">Comprar</button>
+      </div>
+
+      <div class="produto">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRi4Uk5P_zho4sPNxExCvr5cSDzbrvej4YZ0Q&s" alt="Pó Solto">
+        <h3>Pó Solto Rosa Dailus</h3>
+        <p>R$49,90</p>
+        <p>Acabamento aveludado e matte.</p>
+        <button onclick="comprarProduto('Pó Compacto')">Comprar</button>
+      </div>
+
+      <div class="produto">
+        <img src="https://cdn.awsli.com.br/2500x2500/1804/1804375/produto/220623934/usage-apply-crea-ofclkkp8ys.png" alt="Spray Fixador">
+        <h3>Spray Fixador One Size</h3>
+        <p>R$69,90</p>
+        <p>Fixação prolongada sem ressecar.</p>
+        <button onclick="comprarProduto('Spray Fixador')">Comprar</button>
+      </div>
+    </div>
+  </section>
+
+  <section id="sobre">
+    <h2>Sobre a GlowMake</h2>
+    <p>A GlowMake nasceu para empoderar todas as pessoas por meio da maquiagem. Acreditamos que a beleza está em cada detalhe e oferecemos produtos acessíveis, veganos e de alta performance.</p>
+  </section>
+
+  <section id="contato">
+    <h2>Entre em Contato</h2>
+    <form id="formContato">
+      <label for="nome">Nome:</label>
+      <input type="text" id="nome" name="nome" required>
+
+      <label for="email">E-mail:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="mensagem">Mensagem:</label>
+      <textarea id="mensagem" name="mensagem" required></textarea>
+
+      <button type="submit">Enviar</button>
+    </form>
+    <p id="mensagemEnviada" class="escondido">Mensagem enviada com sucesso! ✅</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 GlowMake. Todos os direitos reservados.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
